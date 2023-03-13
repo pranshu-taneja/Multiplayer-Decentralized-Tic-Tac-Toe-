@@ -1,0 +1,20 @@
+.Tournaments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.Tournament{
+    width: 20vw;
+    height: 30vh;
+    margin: 2rem;
+    text-align: center;
+    color: cornsilk;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: 0.3rem solid black;
+}
+

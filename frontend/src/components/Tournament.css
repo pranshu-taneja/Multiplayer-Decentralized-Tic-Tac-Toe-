@@ -7,8 +7,9 @@
 }
 
 .Tournament{
-    width: 20vw;
-    height: 30vh;
+    width: 30%;
+    height: 30%;
+    padding: 3rem;
     margin: 2rem;
     text-align: center;
     color: cornsilk;

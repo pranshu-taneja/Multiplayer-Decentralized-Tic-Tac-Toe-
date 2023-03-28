@@ -23,7 +23,6 @@ function Lobby(props) {
     return () => clearInterval(intervalId);
   }, [Contract, Signer])
 
-
   useEffect(() => {
     if(ReadyToPlay == 0){
       navigate('/Gameplay')

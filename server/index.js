@@ -75,8 +75,6 @@ async function createConnection(){
     contract = new ethers.Contract("", abi, signer);
 }    
 
-
-
 io.on('connection', socket =>{
     console.log(`Socket ${socket.id} connected`);
     createConnection();

@@ -72,7 +72,7 @@ var provider, signer, contract;
 async function createConnection(){
     provider = new ethers.providers.JsonRpcProvider("http://localhost:8545"); //hardhat rpc url
     signer = provider.getSigner();
-    contract = new ethers.Contract("0x5FbDB2315678afecb367f032d93F642f64180aa3", abi, signer);
+    contract = new ethers.Contract("", abi, signer);
 }    
 
 

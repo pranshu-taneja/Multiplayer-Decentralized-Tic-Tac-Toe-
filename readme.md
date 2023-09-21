@@ -4,8 +4,6 @@
 - Each user has to pay some specified amount in crypto to get entered into the game and then the winner will the get the prize in the form of digital assets.
 - There is a lobby page and gaming page for waiting room and playing room seperatly.
 
-Note: This Project is a prototype and currently is in development and hopefully will be deployed live by the end of this weekend (deadline: 02-04-2023)
-
 ## **You can still use most of the functionalities.👇** 
 - Just pull the code and use `npm install` for both frontend and server. 
 - and then use `npm start` respectively to make them running
